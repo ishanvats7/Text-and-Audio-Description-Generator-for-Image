@@ -1,0 +1,18 @@
+# Web framework
+flask
+flask-cors
+
+# Core libraries
+numpy
+pillow
+matplotlib
+tqdm
+
+# Deep learning
+tensorflow
+
+# Image captioning
+nltk
+
+# Text-to-speech
+gTTS

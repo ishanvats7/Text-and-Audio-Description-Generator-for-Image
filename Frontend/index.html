@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Image Captioning</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Upload an Image to Get a Caption and Audio</h2>
+
+    <div id="dropbox" onclick="document.getElementById('imageInput').click();">
+      Drag & Drop an Image Here or Click to Upload
+    </div>
+
+    <input type="file" id="imageInput" accept="image/*" />
+
+    <img id="preview" src="#" alt="Image Preview" style="display: none;" />
+
+    <button class="upload-btn" onclick="uploadImage()">Get Caption</button>
+
+    <textarea id="caption" placeholder="Caption will appear here..." readonly></textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
